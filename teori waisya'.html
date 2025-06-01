@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Teori Waisya</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f5f5dc;
+            color: #333;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        /*-------------------------------------------Header---------------------------------------------------*/
+        header{
+            min-height: 100vh;
+            background: url(gambar/header.jpg) center/cover no-repeat fixed;
+            display: flex;
+            flex-direction: column;
+            justify-content: stretch;
+            width: 100%;
+            height: 100%;
+        }
+       
+        .banner{
+            flex: 1;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+            color:white;
+            background-color: transparent;
+        }
+        .banner-title{
+            font-size: 3rem;
+            font-family: var(--Playfair);
+            line-height: 1.2;
+        }
+
+        .container {
+            max-width: 100%;
+            background: transparent;
+            padding: 0;
+            margin: 0;
+            margin-right: 30px;
+            margin-top: 5px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            border-radius: 10px;
+        }
+
+        .title {
+            text-align: center;
+            font-size: 36px;
+            font-weight: bold;
+            margin-bottom: 20px;
+        }
+
+        .image {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+
+        .image img {
+            max-width: 30%;
+            height: auto;
+            border-radius: 10px;
+        }
+
+        .content {
+            margin-bottom: 30px;
+            line-height: 1.6;
+        }
+
+        .boxes {
+            display: flex;
+            flex-direction: column;
+            gap: 20px;
+        }
+
+        @media (min-width: 600px) {
+            .boxes {
+                flex-direction: row;
+                justify-content: space-between;
+            }
+        }
+
+        .box {
+            flex: 1;
+            background-color: #f0e68c;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        }
+
+        .box h3 {
+            margin-top: 0;
+            font-size: 24px;
+            color: #4b0082;
+        }
+
+        .box ul {
+            padding-left: 20px;
+        }
+
+        .box ul li {
+            margin-bottom: 10px;
+        }
+    </style>
+</head>
+<body>
+    <!-- header -->
+    <header>
+        <div class = "banner">
+          <div class = "container">
+            <h1 class = "banner-title">
+              Sejarah Hindu-Buddha
+            </h1>
+          </div>
+        </div>
+    </header>
+    <div class="container">
+        <div class="title">TEORI WAISYA</div>
+        <div class="image">
+            <img src="gambar/waisya'.jpg" alt="waisya'">
+        </div>
+        <div class="content">
+            <p>Teori Waisya oleh N. J. Krom menyatakan bahwa kedatangan bangsa India ke Indonesia terutama didorong oleh perdagangan, dengan para pedagang (kasta waisya) yang menetap dan menikah dengan penduduk lokal. Mereka kemudian menyebarkan agama dan budaya melalui interaksi sosial.</p>
+            <p>Namun, teori ini diragukan karena jika pedagang yang berperan menyebarkan budaya, seharusnya pusat kebudayaan hanya ada di daerah pelabuhan. Faktanya, pengaruh Hindu juga ditemukan di pedalaman, seperti di kerajaan-kerajaan Hindu di Jawa, yang menunjukkan bahwa penyebarannya tidak terbatas pada kawasan perdagangan.</p>
+        </div>
+        <div class="boxes">
+            <div class="box">
+                <h3>Kelebihan Teori Waisya:</h3>
+                <ul>
+                    <li>Menjelaskan penyebaran budaya melalui perdagangan dan interaksi sosial.</li>
+                    <li>Pernikahan dengan penduduk lokal mempermudah asimilasi budaya.</li>
+                    <li>Didukung bukti historis adanya hubungan dagang antara India dan Indonesia.</li>
+                </ul>
+            </div>
+            <div class="box">
+                <h3>Kekurangan Teori Waisya:</h3>
+                <ul>
+                    <li>Pusat kebudayaan Hindu banyak ditemukan di pedalaman, bukan di daerah perdagangan.</li>
+                    <li>Bukti konkret keterlibatan pedagang waisya dalam penyebaran agama kurang.</li>
+                    <li>Mengabaikan peran brahmana yang lebih berpengetahuan tentang ajaran agama.</li>
+                    <li>Terlalu berfokus pada faktor ekonomi, mengabaikan aspek misionaris dan politik.</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

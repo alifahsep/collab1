@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Teori Waisya</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background: transparent;
+            color: #333;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+/*-------------------------------------------Header---------------------------------------------------*/
+        header{
+            min-height: 100vh;
+            background: url(gambar/header.jpg) center/cover no-repeat fixed;
+            display: flex;
+            flex-direction: column;
+            justify-content: stretch;
+            width: 100%;
+            height: 100%;
+        }
+        .banner{
+            flex: 1;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+            color:white;
+            background-color: transparent;
+        }
+        .banner-title{
+            font-size: 3rem;
+            font-family: var(--Playfair);
+            line-height: 1.2;
+        }
+
+        .container {
+            max-width: 100%;
+            padding: 0;
+            background: transparent;
+            margin: 0;
+            margin-right: 30px;
+            margin-top: 5px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            border-radius: 10px;
+        }
+
+        .title {
+            text-align: center;
+            font-size: 36px;
+            font-weight: bold;
+            margin-bottom: 20px;
+        }
+
+        .image {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+
+        .image img {
+            max-width: 30%;
+            height: auto;
+            border-radius: 10px;
+        }
+
+        .content {
+            margin-bottom: 30px;
+            line-height: 1.6;
+            width: 100%;
+        }
+
+        .boxes {
+            display: flex;
+            flex-direction: column;
+            gap: 20px;
+        }
+
+        @media (min-width: 600px) {
+            .boxes {
+                flex-direction: row;
+                justify-content: space-between;
+            }
+        }
+
+        .box {
+            flex: 1;
+            background-color: #f0e68c;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        }
+
+        .box h3 {
+            margin-top: 0;
+            font-size: 24px;
+            color: #4b0082;
+        }
+
+        .box ul {
+            padding-left: 20px;
+        }
+
+        .box ul li {
+            margin-bottom: 10px;
+        }
+    </style>
+</head>
+<body>
+    <!-- header -->
+    <header>
+        <div class = "banner">
+          <div class = "container">
+            <h1 class = "banner-title">
+              Sejarah Hindu-Buddha
+            </h1>
+          </div>
+        </div>
+    </header>
+    <div class="container">
+        <div class="title">TEORI ARUS BALIK</div>
+        <div class="image">
+            <img src="gambar/arus balik.jpg" alt="Gambar Buddha">
+        </div>
+        <div class="content">
+            <p>Teori Arus Balik yang dikemukakan oleh G. Coedes menyatakan bahwa pengaruh dan kebudayaan India berkembang di Indonesia karena bangsa Indonesia sendiri yang datang ke India untuk mempelajari agama Hindu dan Buddha. Setelah kembali, mereka membawa pengetahuan tersebut. Meskipun teori ini masih memerlukan bukti lebih, sekitar abad V, agama Buddha mulai dikenal di Indonesia. Pada abad VII, biksu Buddha I Tsing menemukan bahwa ajaran Buddha diterima di Kerajaan Sriwijaya. Pada abad VIII, Dinasti Syailendra di Jawa Tengah yang menganut Buddha membangun monumen Buddha, seperti Candi Borobudur.</p>
+        </div>
+        <div class="boxes">
+            <div class="box">
+                <h3>Kelebihan Teori Arus Balik:</h3>
+                <ul>
+                    <li>Menunjukkan inisiatif lokal Indonesia dalam mempelajari dan mengembangkan kebudayaan India.</li>
+                    <li>Didukung bukti sejarah seperti kedatangan I Tsing dan pembangunan Candi Borobudur.</li>
+                    <li>Menggambarkan proses kebudayaan yang bersifat dua arah.</li>
+                </ul>
+            </div>
+            <div class="box">
+                <h3>Kekurangan Teori Arus Balik:</h3>
+                <ul>
+                    <li>Membutuhkan bukti lebih kuat tentang keterlibatan langsung Indonesia.</li>
+                    <li>Meremehkan peran pengaruh luar seperti pedagang dan biksu India.</li>
+                    <li>Fokus pada agama, kurang menjelaskan aspek kebudayaan lain.</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
